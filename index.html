@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>Web fonts type tester for designers.</title>
+		<link rel="stylesheet" href="./css/font.css"/>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.js" type="text/javascript"></script>
+  		<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" type="text/javascript"></script>
+		<script src="./js/font.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="setting">
+			<h1>Web fonts type tester for designers.</h1>
+			<div id="default">
+				<b>Default</b><br>
+				width <span id="defaultW"></span>px<br>
+				height <span id="defaultH"></span>px<br>
+				padding <span id="defaultP"></span>px<br>
+				font type <span id="defaultFT"></span><br>
+				font size <span id="defaultFS"></span>pt<br>
+				line height <span id="defaultLH"></span>pt<br>
+				word spacing <span id="defaultWS"></span>pt<br>
+				letter spacing <span id="defaultLS"></span>pt<br>
+				text align <span id="defaultTA"></span><br>
+				word break <span id="defaultWB"></span><br>
+				font color <span id="defaultC"></span><br>
+				background color <span id="defaultBG"></span>
+			</div>
+			<div id="current">
+				<b>Current</b><br>
+				width <span id="curW"></span>px<br>
+				<div id="textWidth"></div>
+				height <span id="curH"></span>px<br>
+				<div id="textHeight"></div>
+				padding <span id="curP"></span>px<br>
+				<div id="textPadding"></div>
+				font type<br>
+				<div id="fontType"></div><br>
+				font size <span id="curFS"></span>pt<br>
+				<div id="fontSize"></div>
+				line height <span id="curLH"></span>pt<br>
+				<div id="lineHeight"></div>
+				word spacing <span id="curWS"></span>pt<br>
+				<div id="wordSpacing"></div>
+				letter spacing <span id="curLS"></span>pt<br>
+				<div id="letterSpacing"></div>
+				text align<br>
+				<div id="textAlign"></div><br>
+				word break<br>
+				<div id="wordBreak"></div><br>
+				font color <span id="curC"></span><br>
+				<div id="red"></div>
+				<div id="green"></div>
+				<div id="blue"></div>
+				<div id="swatch" class="ui-widget-content ui-corner-all"></div><br>
+				background color <span id="curBG"></span><br>
+				<div id="bgRed"></div>
+				<div id="bgGreen"></div>
+				<div id="bgBlue"></div>
+				<div id="bgSwatch" class="ui-widget-content ui-corner-all"></div>
+			</div>
+			<div id="textSwitch">
+				<b>Text change</b> : ctrl + enter<br>
+				<textarea name="textChange" id="textChange" rows="4" cols="50"></textarea>
+				<button id="changeBtn">change</button>
+			</div>
+		</div>
+		<div id="result">
+			<b id="resultFont">Result</b><br>
+			<p id="resultText"></p>
+		</div>
+	</body>
+</html>
