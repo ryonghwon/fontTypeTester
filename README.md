@@ -3,7 +3,7 @@
 
 ## Author
 
-ryonghwon
+ryonghwon (Interactive Designer / Interacitve Developer)
 
 [Twitter](https://twitter.com/ryonghwon)
 [Facebook](https://www.facebook.com/ryonghwon)
