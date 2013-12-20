@@ -1,2 +1,2 @@
-# 24 Pull Requests
+# Web fonts type tester for designers.
 
